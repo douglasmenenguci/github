@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5));
+    background-image: url(img/background.jpg);
+}
+
+header {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 100px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    font-size: 2rem;
+    color: #2ecc71;
+    border: 3px solid #2ecc71;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    gap: 6rem;
+    font-weight: 400;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+nav a:hover {
+    color: #2ecc71;
+}
+
+#contato {
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 200px;
+    transition: 0.5s all;
+}
+
+#contato:hover {
+    background: #2ecc71;
+    color: #fff;   
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 150px;
+    margin-left: 100px;
+    gap: 15px;
+}
+
+main h1 {
+    color: #fff;
+    font-size: 3rem;
+    
+}
+
+main h1 span {
+    color: #2ecc71;
+}
+
+main h3 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+main p {
+    width: 800px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+#redes-sociais {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#redes-sociais a {
+    color: #2ecc71;
+    margin-top: 10px;
+}
+
+#redes-sociais a i {
+    font-size: 1.6rem;
+}
+
+#sobre-mim {
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 200px;
+    transition: 0.5s all;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#sobre-mim:hover {
+    background: #2ecc71;
+    color: #fff;
+}

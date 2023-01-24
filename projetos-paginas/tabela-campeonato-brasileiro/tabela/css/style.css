@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anek Malayalam', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    background-color: #10502f;
+    color: white;
+    border-collapse: collapse;
+    box-shadow: 0px 2px 4px #888888;
+    font-size: 0.85em;
+    margin-bottom: 5px;
+    position: fixed;
+}
+
+.header td{ 
+    height: 50px;
+    color: #9db7a9;
+}
+
+.nav-conteudo-lateral {
+    width: 25%;
+}
+
+#nav-destacado {
+    border-bottom: 2px solid white;
+    color: #fff;
+}
+
+#nav-destacado:hover {
+    background-color: #0e482a;
+    cursor: pointer;
+}
+
+.tabela-brasileirao {
+    border: 1px solid #e9eaeb;
+    border-top: none;
+    border-bottom: none;
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 0.85em;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.tabela-brasileirao th {
+    border-top: 1px solid #e0e0e0;
+    font-weight: 500;
+    color: #70758d;
+    padding: 4px;
+    height: 35px;
+}
+
+.tabela-brasileirao td {
+    border-top: 1px solid #e0e0e0;
+    font-weight: 300;
+    color: #000;
+    font-size: 1.2em;
+    height: 40px;
+    text-align: center;
+    padding: 2px;
+}
+
+.escudo-img {
+    width: 2.5em;
+    padding: 5px;
+}
+
+#tabela-brasileirao-header {
+    background-color: #f1f3f4;
+    text-align: left;
+    color: #70758d;
+    padding: 10px 20px;
+}
+
+span {
+    color: #4285f4;
+    font-weight: 600;
+}
+
+#ano {
+    font-size: 1em;
+}
+
+#seta {
+    font-size: 20px;
+}
+
+a:link, a::after, a::before, a:active {
+    text-decoration: none;
+}
+
+a {
+    color: #70758d; 
+}
+
+.tabela-colunas-bordas {
+    border-top: none !important;
+}
+
+.titulo-clube {
+    width: 40%;
+    text-align: left !important;
+}
+
+.titulo-ultimas-cinco {
+    width: 30%;
+}
+
+.titulo-ultimas-cinco img {
+    width: 1em;
+}
+
+.borda-azul {
+    border-left: 3px solid #4285f4;
+}
+
+.borda-laranja {
+    border-left: 3px solid #fa7b17;
+}
+
+.borda-verde {
+    border-left: 3px solid #34a853;
+}
+
+.borda-vermelha {
+    border-left: 3px solid #ea4335;
+}
+
+.legenda table {
+    width: 95%;
+    margin: 20px auto;
+    border: 1px solid #e9eaeb;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+    background-color: #f8f9fa;
+    
+}
+
+.legenda td {
+    font-size: 1em;
+    border: none;
+    text-align: left;
+    height: 3px;
+    width: 50%;
+}
+
+.legenda th {
+    font-size: 1.1em;
+    color: #000;
+    border: none;
+    font-weight: 500;
+}
+
+.quadrados-img {
+    width: 25px;
+    padding-right: 15px;
+}
+
+.circulo-img {
+    width: 23px;
+    padding-right: 10px;
+}

@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+
+body {
+    font-family: 'Anek Malayalam', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.grid-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main';
+    grid-template-rows: 100px auto;
+}
+
+/*#region header*/
+.div-header {
+    grid-area: header;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #10502f;
+    box-shadow: 0px 2px 4px #888;
+}
+
+.div-header figure {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.div-header nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 0.75em;
+}
+
+.div-header nav div {
+    width: 150px;
+    line-height: 40px;
+    color: #9db7a9;
+}
+
+.div-header nav div a {
+    text-decoration: none;
+    color: #9db7a9;
+}
+
+.div-header nav div a:hover {
+    cursor: pointer;
+}
+
+.destacado {
+    border-bottom: 2px solid white;
+    color: #fff;
+}
+
+.destacado:hover {
+    background-color: #0e482a;
+    cursor: pointer;
+}
+/*#endregion*/
+
+/*#region main*/
+.div-tabela {
+    grid-area: main;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; 
+}
+
+#conteudo {
+    text-align: center;
+    border: 1px solid #e9eaeb;
+    width: 750px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#topo {
+    width: 100%;
+    padding: 15px 20px;
+    text-align: left;
+    background-color: #f1f3f4;
+    font-size: 0.85em;
+}
+
+#topo a {
+    text-decoration: none;
+    color: #70758d;
+}
+
+#ano {
+    font-weight: 600;
+    color: #4285f4;
+}
+
+#linha {
+    width: 98%;
+    border-top: 1px solid #dadec0;
+}
+
+#tabela {
+    width: 100%; 
+}
+
+#tabela table {
+    border-collapse: collapse;
+}
+
+#tabela th {
+    font-size: 0.80em;
+    font-weight: 400;
+    color: #70758d;
+    padding: 4px;
+    height: 35px;
+}
+
+#tabela td {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #000;
+    border-top: 1px solid #dadec0;
+    padding: 4px;
+    height: 40px;
+}
+
+.escudo-img {
+    width: 25px;
+}
+
+.coluna-clube {
+    width: 50%;
+    text-align: left;
+}
+
+.coluna-ultimas-cinco {
+    width: 25%;
+}
+
+.titulo-clube {
+    text-align: left;
+}
+
+.coluna-bordas {
+    border-top: none !important;
+}
+
+#legenda {
+    display: flex;
+    background-color: #f8f9fa;
+    width: 98%;
+    border: 10px;
+    border-radius: 5px;
+    margin:30px 0px;
+    padding: 15px;
+    border: 1px solid #e9eaeb;
+    text-align: left;
+    font-size: 0.80em;
+}
+
+#legenda div {
+    width: 50%;
+    align-items: center;
+}
+
+.quadrados-img {
+    width: 12px;
+}
+
+.circulo-img {
+    width: 14px;
+}
+
+.borda-azul {
+    border-left: 3px solid #4285f4;
+}
+
+.borda-laranja {
+    border-left: 3px solid #fa7b17;
+}
+
+.borda-verde {
+    border-left: 3px solid #34a853;
+}
+
+.borda-vermelha {
+    border-left: 3px solid #ea4335;
+}
+
+
+/*#endregion*/
+
+@media (max-width: 576px){
+    .div-header nav div {
+        width: 90px;
+        margin: 0px 2px;
+        font-size: 0.9em;
+    } 
+}

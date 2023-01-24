@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+
+header {
+    width: 100vw;
+    background-image: linear-gradient(to top, #003a00, #004600, #009b00, #00b900);
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4.5em;
+    padding: 45px 0px;
+    color: white;
+}
+
+#fototemplo {
+    width: 200px;
+    float: left;
+    margin: 30px;
+}
+
+/*
+#fototemplo {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/IPBalvorada-001.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+}
+*/
+nav {
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0px;
+    background-color: #003f00;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #c1e4bc;
+    transition: all 300ms;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color:#06a106 ;
+}
+
+main {
+    width: 100%;
+    background-color: #c1ebc8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+section{
+    width: 80%;
+    text-align: center;
+}
+
+.texto1 {
+    background-color: #c1c2c3;
+    width: 700px;
+    height: 500px;
+    padding: 40px;
+}
+
+.texto1 h2 {
+    margin-bottom: 40px;
+}
+
+.texto1 p {
+    text-align: justify;
+}
+
+
+
+.img1 {
+    width: 150px;
+    float: left;
+    margin: 0px 20px 20px 20px
+}
+
+footer {
+    text-align: center;
+}
+
