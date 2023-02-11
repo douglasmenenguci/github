@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/*Cabeçalho*/
+header {
+    text-align: center;
+    background: #f7b600;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header h1, nav {
+    padding: 10px;
+}
+
+#branco, nav a {
+    color: #fff;
+}
+
+nav a {
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #f7b600;
+}
+
+/*Area de Conteudo*/
+
+main {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.conteudo-principal {
+    width: 660px; 
+    float: left;
+}
+
+.postagem {
+    padding: 20px;
+    background: #fff;
+}
+
+.postagem h2 {
+    color: #f7b600;
+}
+
+.postagem img {
+    width: 620px;
+}
+
+.postagem a, .postagem-menu-lateral a {
+    color: #f7b600;
+}
+
+.postagem a:hover, .postagem-menu-lateral a {
+    text-decoration: underline;
+}
+
+.data-postagem {
+    display: block;
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 20px;
+}
+
+.menu-lateral {
+    background: #fff;
+    width: 240px;
+    float: right;
+}
+
+.conteudo-menu-lateral {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.conteudo-menu-lateral h3 {
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+.postagem-menu-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.links-menu-lateral {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.links-menu-lateral a {
+    color: #f7b600;
+    padding: 5px;
+}
+
+.links-menu-lateral a:hover {
+    background-color: #f7b600;
+    color: #fff;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+    margin-top: 1250px;/* gambiarra :V */
+}
