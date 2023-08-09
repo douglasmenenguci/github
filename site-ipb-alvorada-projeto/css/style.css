@@ -6,11 +6,15 @@
     font-size: 18px;
 }
 
-
-
 header {
     width: 100vw;
-    background-image: linear-gradient(to top, #003a00, #004600, #009b00, #00b900);
+    background-image: linear-gradient(
+        to top,
+        #003a00,
+        #004600,
+        #009b00,
+        #00b900
+    );
 }
 
 .topo {
@@ -60,7 +64,7 @@ nav ul li {
     list-style: none;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     font-size: 1em;
     color: #c1e4bc;
@@ -70,7 +74,7 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-    background-color:#06a106 ;
+    background-color: #06a106;
 }
 
 main {
@@ -83,7 +87,7 @@ main {
     gap: 50px;
 }
 
-section{
+section {
     width: 80%;
     text-align: center;
 }
@@ -103,15 +107,12 @@ section{
     text-align: justify;
 }
 
-
-
 .img1 {
     width: 150px;
     float: left;
-    margin: 0px 20px 20px 20px
+    margin: 0px 20px 20px 20px;
 }
 
 footer {
     text-align: center;
 }
-
